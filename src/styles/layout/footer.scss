@@ -1,0 +1,45 @@
+.section-footer  {
+   padding: 5rem 5rem 1rem;
+   color: $text-white;
+
+   @media only screen and (max-width: 736px) {
+      text-align: center;
+   }
+
+   .img-box {
+      height: 140px;
+      float: left;
+      margin-right: 2rem;
+
+      @media only screen and (max-width: 736px) {
+         float: none;
+         height: auto;
+      }
+   }
+
+   img {
+      height: 3rem;
+   }
+
+   &--text {
+      width: 50%;
+      margin-bottom: 2rem;
+
+      h6 {
+         font-weight: 300;
+      }
+
+      p {
+         line-height: 1.8;
+         font-size: 0.9rem;
+      }
+
+      @media only screen and (max-width: 736px) {
+         width: 100%;
+      }
+   
+      @media only screen and (max-width: 1024px) {
+         width: 100%;
+      }
+   }
+}

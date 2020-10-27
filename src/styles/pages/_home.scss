@@ -1,0 +1,14 @@
+ 
+ #app {
+   background: url(assets/bg-leaves.svg) top 0px right 10px / 1086px no-repeat, 
+   url(assets/bg-decals.svg) top 9% left -20% / 1086px no-repeat;
+
+  @media only screen and (max-width: 1024px) {
+    background: url(assets/bg-leaves.svg) top 0px right 5px / 786px no-repeat, 
+    url(assets/bg-decals.svg) top 8% left -50px / 786px no-repeat;
+  }
+
+  @media only screen and (max-width: 736px) {
+    background: url(assets/bg-leaves.svg) top 0px right 5px / 386px no-repeat;
+  }
+ } 
